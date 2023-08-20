@@ -66,6 +66,13 @@
         .button3 a {
             color: rgb(199, 199, 199);
         }
+        .button4 {
+            border-color: rgb(217, 31, 31);
+            background-color: rgb(199, 199, 199);
+        }
+        .button4 a {
+            color: rgb(217, 31, 31);
+        }
     </style>
 </head>
 <body>
@@ -93,7 +100,19 @@
         <div class="button button3" onclick="javascript: this.getElementsByTagName('a')[0].click()">
             <a href="s1-3-2.html">you died. try again?</a>
         </div>
+        <div class="button button4" onclick="javascript: this.getElementsByTagName('a')[0].click()">
+            <a href="s1-3-2.html">hint</a>
+        </div>
         <img id="image" src="s1-3-1-pixel-1.png" />
+    </div>
+    <div style="display: none">
+        <p>You admit to yourself that this quest may be a bit more than you can handle. You clear your mind and pray that some higher power is listening and willing to help.</p>
+        <p>A surprising image starts forming in your mind... Are you hallucinating about fortune cookies?!</p>
+        <p>You decide against approaching the strange insect-like creature and instead focus on exploring further within the temple. </p><p>Your curiosity leads you towards a hidden tunnel which was not marked on any maps or charts. This discovery fills you with both excitement and trepidation as you step forward into the darkness.</p>
+        <div class="button" onclick="javascript: this.getElementsByTagName('a')[0].click()">
+            <a href="s1-3-2.html">try again</a>
+        </div>
+        <img id="image" src="hint.png" />
     </div>
 </body>
 </html>

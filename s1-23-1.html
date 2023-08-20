@@ -66,6 +66,13 @@
         .button3 a {
             color: rgb(199, 199, 199);
         }
+        .button4 {
+            border-color: rgb(217, 31, 31);
+            background-color: rgb(199, 199, 199);
+        }
+        .button4 a {
+            color: rgb(217, 31, 31);
+        }
     </style>
 </head>
 <body>
@@ -93,7 +100,19 @@
         <div class="button button3" onclick="javascript: this.getElementsByTagName('a')[0].click()">
             <a href="s1-23-2.html">you died. try again?</a>
         </div>
+        <div class="button button4" onclick="javascript: this.getElementsByTagName('a')[0].click()">
+            <a href="s1-23-2.html">hint</a>
+        </div>
         <img id="image" src="s1-23-1-pixel-1.png" />
+    </div>
+    <div style="display: none">
+        <p>You admit to yourself that this quest may be a bit more than you can handle. You clear your mind and pray that some higher power is listening and willing to help.</p>
+        <p>A surprising image starts forming in your mind... Are you hallucinating about fortune cookies?!</p>
+        <p>You descend down the stairs leading to the lower dungeon. Torches flicker on the walls casting eerie shadows around you. </p><p>Suddenly, a loud creaking sound echoes through the chamber followed by a rush of wind blowing out all torches leaving you in complete darkness.</p>
+        <div class="button" onclick="javascript: this.getElementsByTagName('a')[0].click()">
+            <a href="s1-23-2.html">try again</a>
+        </div>
+        <img id="image" src="hint.png" />
     </div>
 </body>
 </html>

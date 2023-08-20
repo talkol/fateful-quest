@@ -66,6 +66,13 @@
         .button3 a {
             color: rgb(199, 199, 199);
         }
+        .button4 {
+            border-color: rgb(217, 31, 31);
+            background-color: rgb(199, 199, 199);
+        }
+        .button4 a {
+            color: rgb(217, 31, 31);
+        }
     </style>
 </head>
 <body>
@@ -93,7 +100,19 @@
         <div class="button button3" onclick="javascript: this.getElementsByTagName('a')[0].click()">
             <a href="s0-1-2.html">you died. try again?</a>
         </div>
+        <div class="button button4" onclick="javascript: this.getElementsByTagName('a')[0].click()">
+            <a href="s0-1-2.html">hint</a>
+        </div>
         <img id="image" src="s0-1-1-pixel-1.png" />
+    </div>
+    <div style="display: none">
+        <p>You admit to yourself that this quest may be a bit more than you can handle. You clear your mind and pray that some higher power is listening and willing to help.</p>
+        <p>A surprising image starts forming in your mind... Are you hallucinating about fortune cookies?!</p>
+        <p>The legend of the cursed golden skull had haunted your research for years. Stories spoke of its power to grant immense wealth, but at a dark cost. </p><p>After years of piecing clues together, you finally have a first tangible idea of where in the world it could be found.</p>
+        <div class="button" onclick="javascript: this.getElementsByTagName('a')[0].click()">
+            <a href="s0-1-2.html">try again</a>
+        </div>
+        <img id="image" src="hint.png" />
     </div>
 </body>
 </html>

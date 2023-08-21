@@ -18,20 +18,30 @@
             line-height: 22px;
             max-width: 430px;
             margin: auto;
-            background-color: #ddd;
         }
-        @media screen and (max-width: 430px) {
+        @media (max-width: 430px) {
+            html {
+                background: url(home.png);
+                background-size: 100%;
+                image-rendering: pixelated;
+                image-rendering: -moz-crisp-edges;
+                image-rendering: crisp-edges;
+            }
+        }
+        @media not (max-width: 430px) {
+            html {
+                background-color: #ddd;
+            }
             body {
-                min-height: 100vh;
+                background: url(home.png);
+                background-size: 100%;
+                image-rendering: pixelated;
+                image-rendering: -moz-crisp-edges;
+                image-rendering: crisp-edges;
             }
         }
         body {
             touch-action: pan-x pan-y;
-            background: url(home.png);
-            background-size: 100%;
-            image-rendering: pixelated;
-            image-rendering: -moz-crisp-edges;
-            image-rendering: crisp-edges;
             padding: 10px;
             margin: 0;
         }
